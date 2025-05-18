@@ -16,7 +16,7 @@ const NavBar = ({ clearSession }) => {
   };
 
   return (
-    <div className="navbar bg-gray-800 h-16 px-4 flex justify-between items-center text-white">
+<div className="navbar bg-gray-800 h-16 px-4 flex justify-between items-center text-white w-full max-w-[95vw] mx-auto">
       <span className="text-xl font-semibold">RAG for News Articles</span>
       <button
         onClick={handleClearSession}
